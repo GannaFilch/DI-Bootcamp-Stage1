@@ -1,0 +1,125 @@
+html {
+    font-size: 12px;
+  }
+  body { 
+    font-family: Arial, Georgia;
+    font-size: 1rem;
+    text-align: center;
+    background: #ffd966;
+    color: black;
+    margin: 0;
+  }
+  nav { 
+    background-color: #ffd966;
+    overflow: hidden;}
+    nav a {
+        float: center;
+        color: #6a329f;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+        font-size: 15px;
+      } 
+      nav a:hover {
+        background-color: #6a329f;
+        color: white;
+      }
+      
+      nav a.active {
+        background-color: #6a329f;
+        color: white;
+      }
+  
+  #main {
+    margin: 30px 30px;
+    padding: 30px;
+    border-radius: 50px;
+    background-image: url(https://cdn8.openculture.com/2018/07/08215020/The-Bedroom-1.jpg);
+    background-repeat: no-repeat;
+    background-position: 70% 0;
+    background-size: cover;
+
+  }
+  h1 {
+    position: relative;
+    font-size: 5vw;
+    margin-bottom: 0;
+    color: black;
+    text-shadow: 3px 1px rgb(138, 160, 221);
+    -webkit-text-stroke: 0.1vw rgb(50, 122, 205);
+  }
+  h1::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600%;
+    color: #6a329f;
+    -webkit-text-stroke: 0vw plum;
+    border-right: 0px solid rgb(252, 247, 247);
+    overflow: hidden;
+    animation: animate 15s linear infinite;
+}
+  @keyframes animate{ 0% {width: 0;} 70% {width: 100%;}}
+  h4 {
+    font-style: italic;
+    background-color:rgba(255,217,102,0.5);
+  }
+  #img-caption {
+    font-size: 1.5rem;
+    margin: 0px 0 10px 0;
+  }
+  blockquote {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    max-width: 600px;
+    margin: 0 auto 10px auto;
+    text-align: left;
+    background-color:rgba(216,206,243,0.6)
+  }
+  #life {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    line-height: 2;
+    background-color:rgba(216,206,243,0.8);
+    border-radius: 20px;
+  }
+  li {
+    margin: 10px 5px;
+    text-align: left;
+    font-size: 1.3rem;
+  }
+  
+  a {
+    color: #6a329f ;
+  }
+  a:visited {
+    color: #4c1130;
+  }
+  .container {
+    align-items: center; 
+    float: center;
+  }
+  .image {
+      float: left;
+    padding: 0 50px 50px 50px;
+  }
+  .span {font-size: 1.2rem;
+    font-weight: bold;}
+  h3 {
+    font-size: 2.5rem; 
+    margin: 0 50px
+    text-align: left;
+  }
+  footer {
+    font-size: 1.2rem;
+    margin: 0px 0 10px 0;
+    font-weight: bold;
+    text-align: left
+  }
+
+  iframe {size-adjust: 25%;}
+  

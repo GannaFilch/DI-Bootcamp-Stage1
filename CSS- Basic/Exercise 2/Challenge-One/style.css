@@ -1,0 +1,11 @@
+body {
+    background-color: aqua;
+}
+p, ul {font-size: 20px
+}
+ul ::first-letter {
+    font-weight: bold;
+}
+ul {text-align: center;
+    list-style: none; 
+}

@@ -1,0 +1,95 @@
+html {
+    font-size: 12px;
+  }
+  body { 
+    font-family: Arial, Georgia;
+    font-size: 1rem;
+    text-align: center;
+    background: #ffd966;
+    color: black;
+    margin: 0;
+  }
+  nav { 
+    background-color: #ffd966;
+    overflow: hidden;}
+    nav a {
+        float: center;
+        color: #6a329f;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+        font-size: 15px;
+      } 
+      nav a:hover {
+        background-color: #6a329f;
+        color: white;
+      }
+      
+      nav a.active {
+        background-color: #6a329f;
+        color: white;
+      }
+  
+  #main {
+    margin: 30px 30px;
+    padding: 30px;
+    border-radius: 50px;
+    background-image: url(https://cdn8.openculture.com/2018/07/08215020/The-Bedroom-1.jpg);
+    background-repeat: no-repeat;
+    background-position: 70% 0;
+    background-size: cover;
+    
+  }
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    text-shadow: 3px 3px wheat;
+  }
+  
+  #life {
+    max-width: 1400px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    line-height: 2;
+    background-color:rgba(216,206,243,0.8);
+    border-radius: 20px;
+  }
+  li {
+    margin: 10px 5px;
+    text-align: left;
+    font-size: 1.3rem;
+    list-style: none;
+  }
+  a {
+    color: #6a329f ;
+  }
+  a:visited {
+    color: #4c1130;
+  }
+  h3 {
+    font-size: 2.5rem; 
+    margin: 0 50px
+    text-align: left;
+  }
+  span {
+    font-size: 1.5rem; 
+    margin: 0 50px
+    text-align: center;
+    background-color:rgba(216,206,243,0.8);
+    border-radius: 20px;
+    
+
+
+  }
+  footer {
+    font-size: 1.5rem;
+    margin: 0px 0 10px 0;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    background-color:rgba(216,206,243,0.8);
+    border-radius: 20px;
+  }
+
+  
+  

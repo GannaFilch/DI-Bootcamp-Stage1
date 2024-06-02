@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my first website!</title>
+	</head>
+	<body>
+		Helloooo there 
+       
+
+	</body>
+
+	</html>
+
+
+
+	<table>
+		<thead>
+			<tr>
+				<th>heading1</th>
+				<th>heading2</th>
+				<th>heading3</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>content1</td>
+				<td>content2</td>
+				<td>content3</td>
+			</tr>
+			<tr>
+				<td>content4</td>
+				<td>content5</td>
+				<td>content6</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>footer-content1</td>
+				<td>footer-content2</td>
+				<td>footer-content3</td>
+			</tr>
+		</tfoot>
+	</table>
+
+
+
+
+	h1::before {
+		content: attr(data-text);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		color: #6a329f;
+		-webkit-text-stroke: 0vw plum;
+		border-right: 2px solid maroon;
+		overflow: hidden;
+		animation: animate 6s linear infinite;
+	}
+	  @keyframes animate{ 0% {width: 0;} 70% {width: 100%;}}
+	  h4 {
+		font-style: italic;
+		background-color:rgba(255,217,102,0.5);
+	  }

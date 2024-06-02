@@ -1,0 +1,30 @@
+body {background: peachpuff;
+border: 3px dotted black;
+margin-right: 25%;
+margin-left: 25%;
+}
+h1 { border-bottom: 3px dotted black;
+    text-align: center;
+    margin: 0;
+    font-family: 
+}
+p { 
+    text-align: left;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+ul ::first-letter {
+    font-weight: bold;
+}
+ul {text-align: center;
+    list-style: none; 
+    font-style: italic;
+}
+.copyright {
+    text-align: center;
+    font-size: small;
+    margin-bottom: 0%;
+}
+#wrap {
+    background-color: aliceblue;
+}

@@ -1,0 +1,90 @@
+html {
+    font-size: 12px;
+  }
+  body { 
+    font-family: Arial, Georgia;
+    font-size: 1rem;
+    text-align: center;
+    background: #ffd966;
+    color: black;
+    margin: 0;
+  }
+  nav { 
+    background-color: #ffd966;
+    overflow: hidden;}
+    nav a {
+        float: center;
+        color: #6a329f;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+        font-size: 15px;
+      } 
+      nav a:hover {
+        background-color: #6a329f;
+        color: white;
+      }
+      
+      nav a.active {
+        background-color: #6a329f;
+        color: white;
+      }
+      a {
+        color: #6a329f ;
+      }
+      a:visited {
+        color: #4c1130;
+      }
+  #main {
+    margin: 30px 50px;
+    padding: 30px;
+   
+    
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    text-shadow: 3px 1px rgb(138, 160, 221);
+  }
+  h2 {
+    font-style: italic;
+    background-color:rgba(138, 160, 221);
+  }
+  h4 { 
+    font-size: medium;
+  }
+ 
+   
+  .container {
+    align-items: center; 
+    float: center;
+    width: 90%;
+    padding: 10px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+  }
+  .box{
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 2s;
+  }
+  .box img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .box:hover{
+transform:scale(1.3);
+z-index:2;
+  }
+  
+footer{
+    font-size: 2rem;
+
+}
+ 
+
+  
